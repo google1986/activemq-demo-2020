@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springbootactivemqtopicconsumerdemo" />
         <module name="activemq-base-demo" />
         <module name="springbootactivemqproducerdemo" />
+        <module name="springbootactivemqtopicproducer" />
         <module name="springboot-activemq-consumer" />
       </profile>
     </annotationProcessing>
@@ -21,6 +23,7 @@
       <module name="springbootactivemqconsumer" target="1.8" />
       <module name="springbootactivemqdemo" target="1.8" />
       <module name="springbootactivemqproducer" target="1.8" />
+      <module name="springbootactivemqtopicconsumer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -36,6 +39,9 @@
       <module name="springbootactivemqdemo" options="-parameters" />
       <module name="springbootactivemqproducer" options="-parameters" />
       <module name="springbootactivemqproducerdemo" options="-parameters" />
+      <module name="springbootactivemqtopicconsumer" options="-parameters" />
+      <module name="springbootactivemqtopicconsumerdemo" options="-parameters" />
+      <module name="springbootactivemqtopicproducer" options="-parameters" />
     </option>
   </component>
 </project>

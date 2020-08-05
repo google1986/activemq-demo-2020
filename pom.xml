@@ -55,6 +55,8 @@
         <module>activemq-base-demo</module>
         <module>springboot-activemq-consumer</module>
         <module>springboot-activemq-producer-demo</module>
+        <module>springboot-activemq-topic-producer</module>
+        <module>springboot-activemq-topic-consumer-demo</module>
     </modules>
 
 </project>

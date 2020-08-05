@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ba863a-5eb7-42a7-9d45-43b8396dbea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-activemq-topic-consumer-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-activemq-topic-consumer-demo/src/main/java/com/htzw/activemq/MainApp_Topic_Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-activemq-topic-consumer-demo/src/main/java/com/htzw/activemq/topic/Topic_Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-activemq-topic-consumer-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-activemq-topic-producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-activemq-topic-producer/src/main/java/com/htzw/activemq/MainApp_Topic_producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-activemq-topic-producer/src/main/java/com/htzw/activemq/config/ActiveMQTopicConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-activemq-topic-producer/src/main/java/com/htzw/activemq/topic/Topic_Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-activemq-topic-producer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -41,7 +49,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1fewCS8X6J8ojXvLgPqLtejuSoG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -51,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-activemq-producer-demo/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-activemq-topic-consumer-demo/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37241378" />
@@ -59,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\activemqdemo2020\springboot-activemq-topic-consumer-demo\src\main\resources" />
       <recent name="D:\activemqdemo2020\springboot-activemq-producer-demo\src\main\resources" />
       <recent name="D:\activemqdemo2020\springboot-activemq-producer-demo\src\main\java" />
       <recent name="D:\activemqdemo2020\springboot-activemq-producer" />
       <recent name="D:\activemqdemo2020\springboot-activemq-producer\src\main" />
-      <recent name="D:\activemqdemo2020\activemq-base-demo\src\main\java\com\htzw\activemq" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -78,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainApp_Consumer">
+  <component name="RunManager" selected="Spring Boot.MainApp_Topic_Consumer">
     <configuration name="MainApp_Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.htzw.activemq.MainApp_Producer" />
       <module name="springbootactivemqproducerdemo" />
@@ -121,8 +131,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainApp_Topic_Consumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springbootactivemqtopicconsumerdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htzw.activemq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.htzw.activemq.MainApp_Topic_Consumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp_Topic_producer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springbootactivemqtopicproducer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.htzw.activemq.MainApp_Topic_producer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MainApp_Topic_Consumer" />
         <item itemvalue="JUnit.TestActiveMQ" />
         <item itemvalue="Application.MainApp_Producer" />
       </list>
@@ -139,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596591738578</updated>
       <workItem from="1596591742652" duration="4977000" />
-      <workItem from="1596607605037" duration="2334000" />
+      <workItem from="1596607605037" duration="5560000" />
     </task>
     <servers />
   </component>
