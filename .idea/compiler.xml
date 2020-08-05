@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="activemq-base-demo" />
+        <module name="springboot-activemq-consumer" />
+        <module name="springbootactivemqproducerdemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activemqbasedemo" target="1.8" />
+      <module name="springboot-activemq-producer" target="1.8" />
+      <module name="springbootactivemqconsumer" target="1.8" />
+      <module name="springbootactivemqdemo" target="1.8" />
+      <module name="springbootactivemqproducer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="activemq-base-demo" options="-parameters" />
+      <module name="activemqbasedemo" options="-parameters" />
+      <module name="springboot-activemq-consumer" options="-parameters" />
+      <module name="springboot-activemq-producer" options="-parameters" />
+      <module name="springbootactivemqconsumer" options="-parameters" />
+      <module name="springbootactivemqdemo" options="-parameters" />
+      <module name="springbootactivemqproducer" options="-parameters" />
+      <module name="springbootactivemqproducerdemo" options="-parameters" />
+    </option>
+  </component>
+</project>
