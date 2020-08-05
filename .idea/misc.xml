@@ -9,6 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/spring-activemq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-activemq-producer/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-activemq-producer/pom.xml" />
       </set>
     </option>
